@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornela Design</title>
+    <link rel="icon" type="image/svg+xml" href="img/logo-icon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link href="assets/style.css" rel="stylesheet">
+   <link href="assets/tablet.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Curseur personnalisé -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Fond animé dynamique -->
+    <div class="animated-bg">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Nos Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="accueil">
+        <div class="hero-content">
+            <h1>Ornela Design</h1>
+            <p>Un souffle d'art • Une trace d'éclat</p>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="img/carte.png" alt="Carte de visite">
+                <h3>Carte de Visite</h3>
+                <p>Design personnalisé pour représenter votre identité.</p>
+                <p>تصميم مخصص لتمثيل هويتك.</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+            <div class="service-card">
+                <img src="img/5.png" alt="Carte magnétique">
+                <h3>Carte magnétique</h3>
+                <p>Cartes magnétiques durables</p>
+                <p>بطاقات مغناطيسية متينة للشركات والبطاقات المهنية</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+            <div class="service-card">
+                <img src="img/20.png" alt="Stickers logo">
+                <h3>Stickers logo</h3>
+                <p>Autocollants de logo pour marques, entreprises et projets.</p>
+                <p>ستيكرات شعار للمشاريع والعلامات التجارية.</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+            <div class="service-card">
+                <img src="img/13.png" alt="Stickers QR Code">
+                <h3>Stickers QR Code</h3>
+                <p>Stickers avec QR codes pour menus, boutiques et services.</p>
+                <p>ستيكرات برمز QR للقوائم، المتاجر والخدمات.</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+            <div class="service-card">
+                <img src="img/9.png" alt="Marque-page">
+                <h3>Marque-page</h3>
+                <p>Marque-pages élégants et personnalisés pour lecteurs et cadeaux.</p>
+                <p>علامات كتب أنيقة ومخصصة للقراء والهدايا.</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+            <div class="service-card">
+                <img src="img/16.png" alt="Poster">
+                <h3>Poster</h3>
+                <p>Affiches créatives pour décoration, événements et projets.</p>
+                <p>ملصقات إبداعية للزينة، الفعاليات والمشاريع.</p>
+                <button class="order-btn-service" onclick="openOrder()">Commander</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+    <h2 class="section-title">Nos Réalisations</h2>
+    <div class="portfolio-wrapper">
+        <button class="slide-btn left" onclick="slideLeft()">❮</button>
+        <div class="portfolio-container" id="portfolioContainer">
+            
+            <div class="gallery-item">
+                <img src="img/10.png" alt="Marque de page">
+                <div class="overlay">
+                    <h3>Marque de page</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/5.png" alt="Carte magnétique">
+                <div class="overlay">
+                    <h3>Carte magnétique</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/4.png" alt="Carte magnétique">
+                <div class="overlay">
+                    <h3>Carte magnétique</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/2.png" alt="Carte magnétique">
+                <div class="overlay">
+                    <h3>Carte magnétique</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/6.png" alt="Carte magnétique">
+                <div class="overlay">
+                    <h3>Carte magnétique</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/7.png" alt="Carte magnétique">
+                <div class="overlay">
+                    <h3>Carte magnétique</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/8.png" alt="Marque de page">
+                <div class="overlay">
+                    <h3>Marque de page</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/9.png" alt="Marque de page">
+                <div class="overlay">
+                    <h3>Marque de page</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/17.png" alt="Carte de Visite">
+                <div class="overlay">
+                    <h3>Carte de Visite</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/18.png" alt="Carte de Visite">
+                <div class="overlay">
+                    <h3>Carte de Visite</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/3.png" alt="Carte de Visite">
+                <div class="overlay">
+                    <h3>Carte de Visite</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/19.png" alt="Design divers">
+                <div class="overlay">
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/16.png" alt="Poster">
+                <div class="overlay">
+                    <h3>Poster</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/22.png" alt="Poster">
+                <div class="overlay">
+                    <h3>Poster</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/15.png" alt="Poster">
+                <div class="overlay">
+                    <h3>Poster</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/11.png" alt="Poster">
+                <div class="overlay">
+                    <h3>Poster</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/13.png" alt="Stickers">
+                <div class="overlay">
+                    <h3>Stickers</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/14.png" alt="Stickers">
+                <div class="overlay">
+                    <h3>Stickers</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/20.png" alt="Stickers logo">
+                <div class="overlay">
+                    <h3>Stickers logo</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/21.png" alt="Stickers">
+                <div class="overlay">
+                    <h3>Stickers</h3>
+                    <button class="order-btn" onclick="openOrder()">Commander</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="slide-btn right" onclick="slideRight()">❯</button>
+    </div>
+</section>
+
+    <!-- Section Réseaux sociaux + Boutiques (avant le footer) -->
+    <section class="pre-footer">
+        <h2 class="section-title">Suivez-nous & Achetez directement</h2>
+        <div class="social-shops">
+            <a href="https://instagram.com/orneladesign" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://tiktok.com/@orneladesign" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://facebook.com/orneladesign" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://ko-fi.com/orneladesign" target="_blank" class="shop-btn kofi">Ko-fi Shop</a>
+            <a href="https://payhip.com/orneladesign" target="_blank" class="shop-btn payhip">Payhip</a>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>© 2025 Ornela Design • Création avec passion</p>
+    </footer>
+
+    <!-- Modale de commande -->
+    <div id="orderModal">
+        <div class="modal-overlay" onclick="closeOrder()"></div>
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeOrder()">×</span>
+            <h2>Contactez-nous pour commander</h2>
+            <p>Choisissez votre plateforme préférée :</p>
+            <div class="social-grid">
+                <div class="social-card" onclick="window.open('https://instagram.com/orneladesign', '_blank')">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                </div>
+                <div class="social-card" onclick="window.open('https://tiktok.com/@orneladesign', '_blank')">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>TikTok</h3>
+                </div>
+                <div class="social-card" onclick="window.open('https://m.me/orneladesign', '_blank')">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <h3>Facebook / Messenger</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boutons de preview responsive (optionnel) -->
+ <button class="tablet-btn" id="toggleTablet">Tablet</button>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
