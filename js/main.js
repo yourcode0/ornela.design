@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const email = data.get('email');
       const msg = data.get('message');
       const body = encodeURIComponent(`Bonjour Ornela,\n\n${msg}\n\n— ${name} (${email})`);
-      window.location.href = `mailto:contact@ornela.design?subject=Demande%20de%20devis&body=${body}`;
+      window.location.href = `mailto:ornela.design.09@gmail.com?subject=Demande%20de%20devis&body=${body}`;
     });
   }
 });
