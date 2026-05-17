@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<title>Services — Ornela Design</title>
+<meta name="description" content="Découvrez tous les services de création graphique.">
+<meta property="og:title" content="Services — Ornela Design">
+<meta property="og:description" content="Découvrez tous les services de création graphique.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap"><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="logo"><img src="assets/logo.svg" alt="Ornela Design"></a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Commander</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+<main>
+
+<section class="hero bg-soft" style="padding:4rem 0 2.5rem;text-align:left">
+  <div class="container">
+    <span class="eyebrow">Services</span>
+    <h1 style="margin-top:.5rem">Tout ce qu'il faut pour <span class="text-gradient">briller</span>.</h1>
+    <p class="muted" style="max-width:620px;margin-top:1rem">Une gamme complète de supports imprimés et électroniques, conçus sur mesure pour valoriser votre activité.</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="grid" id="services-grid"></div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="container">
+    <div class="pack">
+      <div>
+        <span class="eyebrow">Pack Mini-Projet</span>
+        <h2 style="margin-top:.5rem">Tout-en-un pour lancer <span class="text-gradient">votre marque</span>.</h2>
+        <p class="muted" style="margin-top:1rem">Idéal pour les petits projets et nouvelles entreprises : un ensemble cohérent et professionnel à un tarif avantageux.</p>
+        <a href="contact.html" class="btn btn-primary" style="margin-top:1.5rem">Demander un devis <span data-icon="arrow"></span></a>
+      </div>
+      
+      <ul id="pack-list" style="list-style: none; padding: 0; margin-top: 1.5rem;">
+        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+          <span style="color: var(--primary-color); margin-right: 10px;">✔</span>
+          <strong>Identité Visuelle :</strong> Création de logo unique et palette de couleurs.
+        </li>
+        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+          <span style="color: var(--primary-color); margin-right: 10px;">✔</span>
+          <strong>Supports Print :</strong> Conception de cartes de visite et stickers personnalisés.
+        </li>
+        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+          <span style="color: var(--primary-color); margin-right: 10px;">✔</span>
+          <strong>Design Digital :</strong> Menu électronique (QR Code) pour restaurants et cafés.
+        </li>
+     
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo"><img src="assets/logo.svg" alt="Ornela Design" style="height:48px"></a>
+      <p class="muted" style="margin-top:1rem;max-width:280px;font-size:.9rem">Création d'identités visuelles, cartes, menus et supports imprimés & électroniques.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Suivez-nous</h4>
+      <div class="socials">
+        <a href="https://www.instagram.com/ornela.design/" target="_blank" rel="noreferrer" aria-label="Instagram" data-icon="instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=61583125166285" target="_blank" rel="noreferrer" aria-label="Facebook" data-icon="facebook"></a>
+        <a href="https://www.tiktok.com/@ornela.design" target="_blank" rel="noreferrer" aria-label="TikTok" data-icon="tiktok"></a>
+        <a href="mailto:contact@ornela.design" aria-label="Email" data-icon="email"></a>
+      </div>
+    </div>
+  </div>
+  <div class="copy">© <span id="year"></span> Ornela Design — Tous droits réservés.</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
