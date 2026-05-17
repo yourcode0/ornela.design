@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "icon": "card",
+      "title": "Cartes de visite",
+      "desc": "Cartes de visite imprimées, élégantes et professionnelles, pensées pour refléter votre identité."
+    },
+    {
+      "icon": "mail",
+      "title": "Page de contact électronique",
+      "desc": "Une carte de contact digitale interactive partageable en un seul lien ou QR code."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Cartes de remerciement",
+      "desc": "Cartes de remerciement, fidélité et autres modèles personnalisés selon votre demande."
+    },
+    {
+      "icon": "menu",
+      "title": "Menus imprimés & électroniques",
+      "desc": "Menus pour restaurants et cafés, en version imprimée ou digitale avec QR code."
+    },
+    {
+      "icon": "sticker",
+      "title": "Stickers personnalisés",
+      "desc": "Stickers de marque, packaging ou décoration, en formes et finitions variées."
+    },
+    {
+      "icon": "package",
+      "title": "Packs Mini-projets",
+      "desc": "Packs complets : stickers, carte de visite, remerciement, fidélité et carnet de commande."
+    }
+  ],
+  "pack": [
+    "Stickers personnalisés",
+    "Carte de visite",
+    "Carte de remerciement",
+    "Carte de fidélité",
+    "Carnet de commande"
+  ],
+  "values": [
+    { "icon": "palette", "title": "Créativité", "desc": "Chaque projet est unique, pensé pour refléter votre univers." },
+    { "icon": "heart", "title": "Proximité", "desc": "Un échange humain et à l'écoute, du brief à la livraison." },
+    { "icon": "sparkles", "title": "Qualité", "desc": "Un soin du détail dans le choix des couleurs, papiers et finitions." }
+  ]
+}
